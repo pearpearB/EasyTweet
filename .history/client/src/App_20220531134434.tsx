@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Main />} />
-        <Route path='/ranking' element={<Ranking />} />
-        <Route path='/tweet' element={<Tweet />} />
+        <Route path='/blindboard' element={<Ranking />} />
+        <Route path='/blindboard' element={<Tweet />} />
         <Route path='/error' element={<Error />} />
       </Routes>
     </BrowserRouter>
